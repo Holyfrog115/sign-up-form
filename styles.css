@@ -71,6 +71,8 @@ h1, h2, h3, h4, h5, h6 {
     --primary-clr-dark: #376f8f;
     --secondary-clr: #a7c875;
     --light-clr: #eaedeea9; 
+    --border-light-clr: #c5c4c4b2; 
+    --invalid-clr: #c87575;
 }
 
 body {
@@ -193,4 +195,21 @@ body {
 
 .finishing-buttons a:hover {
   color: var(--primary-clr-dark);
+}
+
+.validation-text {
+  font-size: 0.7rem;
+}
+
+input {
+  border: 1px solid var(--border-light-clr);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline-color: var(--secondary-clr);
+}
+
+input:user-invalid {
+  border-color: var(--invalid-clr);
 }
