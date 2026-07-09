@@ -67,6 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 :root {
     --img-width: 35vw;
     --form-width: calc(100vw - var(--img-width));
+    --primary-clr: #75a7c8;
+    --secondary--clr: #a7c875;
 }
 
 body {
@@ -75,6 +77,8 @@ body {
 
 .left-img, .right-form {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-img {
@@ -84,8 +88,6 @@ body {
 
 .right-form {
     width: var(--form-width);
-    display: flex;
-    flex-direction: column;
     padding: 50px 0;
 }
 
@@ -111,6 +113,24 @@ body {
 
 .logo img {
     height: 96px;
+}
+
+.attribution {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 1rem;
+    gap: 0.25rem;
+    color: white;
+}
+
+.attribution a {
+    color: rgb(255, 255, 255);
+}
+
+.attribution a:hover {
+    color: var(--secondary--clr);
 }
 
 div {
