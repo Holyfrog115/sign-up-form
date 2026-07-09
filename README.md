@@ -14,5 +14,5 @@ Doing this project I practiced using:
  - HTML forms
  - flex layout
  - CSS custom properties
- - SVG icon
+ - SVG icons
  - rem and vh, vw units
