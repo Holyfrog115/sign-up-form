@@ -91,16 +91,16 @@ body {
 
 .right-form {
     width: var(--form-width);
-    padding: 8rem 0rem;
+    padding: 5rem 0rem;
     background-color: var(--light-clr);
 }
 
 .catch-line, .finishing-buttons {
-    height: 15%;
+    height: 20%;
 }
 
 .sign-up {
-    height: 70%;
+    height: 60%;
 }
 
 .logo {
@@ -141,11 +141,14 @@ body {
 .catch-line p {
     margin-bottom: 1rem;
     font-size: 1.15rem;
-    font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .catch-line, .finishing-buttons, form {
-  margin-right: 15rem;
+  margin-right: 25rem;
   margin-left: 5rem;
 }
 
@@ -153,6 +156,10 @@ body {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   background-color: white;
   margin: 3rem 0;
+}
+
+.sign-up h1 {
+  margin: 1.5rem 0;
 }
 
 .container {
@@ -163,7 +170,7 @@ body {
 .container div {
   display: flex;
   flex-direction: column;
-  margin: 0.5rem 0;
+  margin-bottom: 2rem;
 }
 
 .sign-up-btn {
