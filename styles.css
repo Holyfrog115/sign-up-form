@@ -97,8 +97,24 @@ body {
     height: 50%;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    font-family: 'SEVEN SEAS';
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 25vh;
+}
+
+.logo img {
+    height: 96px;
+}
+
 div {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-left: none;
     border-top: none;
 }
