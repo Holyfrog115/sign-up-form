@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     display: flex;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .left-img, .right-form {
@@ -88,7 +89,8 @@ body {
 
 .right-form {
     width: var(--form-width);
-    padding: 50px 0;
+    padding: 10rem 5rem;
+    padding-right: 20rem;
 }
 
 .catch-line, .finishing-buttons {
@@ -131,6 +133,12 @@ body {
 
 .attribution a:hover {
     color: var(--secondary--clr);
+}
+
+.catch-line p {
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    font-weight: bold;
 }
 
 div {
