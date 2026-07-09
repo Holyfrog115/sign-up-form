@@ -79,6 +79,7 @@ body {
 
 .left-img {
     width: var(--img-width);
+    background: no-repeat center/100% url(imgs/Fisherman.jpg);
 }
 
 .right-form {
@@ -99,5 +100,5 @@ body {
 div {
     border: 2px solid black;
     border-left: none;
-    /* border-top: none; */
+    border-top: none;
 }
