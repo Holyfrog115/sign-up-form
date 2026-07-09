@@ -68,7 +68,8 @@ h1, h2, h3, h4, h5, h6 {
     --img-width: 35vw;
     --form-width: calc(100vw - var(--img-width));
     --primary-clr: #75a7c8;
-    --secondary--clr: #a7c875;
+    --secondary-clr: #a7c875;
+    --primary-clr-light: #eaedeea9; 
 }
 
 body {
@@ -89,8 +90,8 @@ body {
 
 .right-form {
     width: var(--form-width);
-    padding: 10rem 5rem;
-    padding-right: 20rem;
+    padding: 10rem 0rem;
+    background-color: var(--primary-clr-light);
 }
 
 .catch-line, .finishing-buttons {
@@ -132,7 +133,7 @@ body {
 }
 
 .attribution a:hover {
-    color: var(--secondary--clr);
+    color: var(--secondary-clr);
 }
 
 .catch-line p {
@@ -141,8 +142,22 @@ body {
     font-weight: bold;
 }
 
-div {
-    /* border: 2px solid black; */
-    border-left: none;
-    border-top: none;
+.catch-line, .finishing-buttons, form {
+  margin: 0 10rem;
+}
+
+.sign-up {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  gap: 5em;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
 }
