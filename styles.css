@@ -207,7 +207,7 @@ input {
 }
 
 input:focus {
-  outline-color: var(--secondary-clr);
+  outline-color: var(--primary-clr);
 }
 
 input:user-invalid {
